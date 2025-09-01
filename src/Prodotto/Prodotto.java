@@ -20,5 +20,20 @@ public class Prodotto {
         System.out.println("Nome prodotto: " + nome + " il codice del prodotto è: " + codiceProdotto);
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getCodiceProdotto() {
+        return codiceProdotto;
+    }
+
+    public void setCodiceProdotto(int codiceProdotto) {
+        this.codiceProdotto = codiceProdotto;
+    }
 
 }

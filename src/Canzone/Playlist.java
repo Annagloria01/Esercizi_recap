@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Playlist {
 
-    private List<Canzone> listaCanzoni = new ArrayList<>();
+    private final List<Canzone> listaCanzoni = new ArrayList<>();
 
     public void aggiungiCanzone(Canzone canzone) {
         listaCanzoni.add(canzone);
